@@ -35,7 +35,7 @@ public class SimonSays {
 	private static final Box BOARD_AREA = Box.enclosing(new BlockPos(111, 123, 92), new BlockPos(111, 120, 95));
 	private static final Box BUTTONS_AREA = Box.enclosing(new BlockPos(110, 123, 92), new BlockPos(110, 120, 95));
 	private static final BlockPos START_BUTTON = new BlockPos(110, 121, 91);
-	private static final float[] GREEN = ColorUtils.getFloatComponents(DyeColor.LIME);
+	private static final float[] GREEN = ColorUtils.getFloatComponents(DyeColor.BLUE);
 	private static final float[] YELLOW = ColorUtils.getFloatComponents(DyeColor.YELLOW);
 	private static final ObjectSet<BlockPos> CLICKED_BUTTONS = new ObjectOpenHashSet<>();
 	private static final ObjectList<BlockPos> SIMON_PATTERN = new ObjectArrayList<>();
